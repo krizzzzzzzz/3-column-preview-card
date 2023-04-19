@@ -1,0 +1,144 @@
+.attribution 
+{ 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+#card
+{
+    display: flex;
+    justify-content: center;
+    padding: 11% 15% 5% 15%;
+}
+.item
+{
+    width: 250px;
+    height: 400px;
+    text-align: left;
+}
+#sedans
+{
+    background-color: #E38826;
+    border-radius: 7px 0px 0px 7px;
+}
+#suvs
+{
+    background-color: #006970;
+}
+#luxury
+{
+    background-color: #004241;
+    border-radius: 0px 7px 7px 0px;
+}
+.logo
+{
+    margin: 35px 35px 30px 30px;
+}
+h2
+{
+    color: #F2F2F2;
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 10px 30px 30px 30px;
+}
+p
+{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFFFFF;
+    opacity: 0.75;
+    font-weight: 400;
+    margin: 30px;
+    text-align: left;
+    font-size: 0.8rem;
+    padding-right: 10px;
+}
+button
+{
+    background-color: #ffffff;
+    border: 2px white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 35px 55px 30px 50px;
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.button1
+{
+    color:  #E38826;
+}
+.button2
+{
+    color: #006970;
+}
+.button3
+{
+    color: #004241;
+}
+.button1:hover
+{
+    background-color: #E38826 ;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.button2:hover
+{
+    background-color: #006970;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.button3:hover
+{
+    background-color: #004241;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+} 
+@media (max-width: 912px) {
+    #card {
+      flex-wrap: wrap;
+      padding: 10% 5%;
+    }
+  
+    .item {
+      width: 100%;
+      height: auto;
+    }
+  
+    #sedans {
+      border-radius: 7px 7px 0 0;
+    }
+  
+    #luxury {
+      border-radius: 0 0 7px 7px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .logo {
+      margin: 20px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin: 10px 20px 20px 20px;
+    }
+  
+    p {
+      font-size: 0.7rem;
+      margin: 20px;
+      padding-right: 0;
+    }
+  
+    .button {
+      margin: 20px;
+      font-size: 0.7rem;
+      padding: 8px 15px;
+    }
+  }
+  
